@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../Styles/style.css">
+    <title> Weller Bros | Cinema & Filmes </title>
+</head>
+<style>
+    body { background-color:#FDEB9E; }
+</style>
+<body>
+    <div class="navbar navbar-expand-lg shadow">
+        <div class="container-fluid justify-content-between">
+            <h1>~ Weller Bros ~</h1>
+            <button class="navbar-toggler border-white border-1 " type="button" data-bs-toggle="collapse" data-bs-target="#conteudoNavbar"
+                aria-controls="conteudoNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"> </span>
+            </button>
+            <div class="collapse navbar-collapse" id="conteudoNavbar">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="#" onclick="location.reload()">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="#"
+                            id="link-cadastro-clientes">Ir para Cadastro de Clientes</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <h1 class="text-center p-5 bg-info m-0" style="color:#FDEB9E"> O que você deseja fazer?</h1>
+    <div class="d-flex justify-content-around align-items-center p-4" style="background-color: #04171f;">
+        <button class="btn btn-secondary fs-4 rounded-4" onclick="window.location.href = 'inserir.php'"> 
+            Inserir filmes no Catálogo 
+        </button>
+        <button class="btn btn-secondary fs-4 rounded-4"> 
+            Alterar filmes do Catálogo 
+        </button>
+        <button class="btn btn-secondary fs-4 rounded-4"> 
+            Excluir filmes do Catálogo 
+        </button>
+        <button class="btn btn-secondary fs-4 rounded-4"> 
+            Consultar filmes no Catálogo 
+        </button>
+    </div>
+    <script src="../Bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

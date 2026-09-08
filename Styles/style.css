@@ -1,0 +1,13 @@
+.navbar                         { background-color:#06202B; }
+.navbar, .nav-link              { color:#7AE2CF; }
+.nav-link                       { transition: all 0.3s ease !important; }
+.nav-link:hover, 
+.nav-link:visited               { color:#7AE2CF; transform:translateY(-5px); }
+#link-cadastro-clientes         { color:#FDEB9E; }
+#link-cadastro-clientes:hover,
+#link-cadastro-clientes:visited { color:#FDEB9E; transform:translateY(-5px); }
+.btn-secondary                  { background-color:#7AE2CF !important; color:#04171f; transition: all 0.3s ease; }
+.btn-secondary:hover            { background-color:#397066 !important; transform: translateY(-5px); color:#FDEB9E}
+.bg-info                        { background-color:#077A7D !important; }
+.shadow                         { box-shadow: 0 0 2rem 0.02rem #222 !important; }
+h1                              { pointer-events: none; }
