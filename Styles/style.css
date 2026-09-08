@@ -11,3 +11,4 @@
 .bg-info                        { background-color:#077A7D !important; }
 .shadow                         { box-shadow: 0 0 2rem 0.02rem #222 !important; }
 h1                              { pointer-events: none; }
+.w-fit                          { width: fit-content; }
