@@ -1,4 +1,5 @@
 <?php
+
 include_once("../Settings/DatabaseConnection.php");
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -44,7 +45,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         );
 
         if (mysqli_stmt_execute($stmt)) {
-            echo "<script>alert('Filme inserido com sucesso!'); window.location.href='index.php';</script>";
+            echo "<script>alert('Filme inserido com sucesso!'); window.location.href='../Pages/index.html';</script>";
         } else {
             echo "Erro ao inserir filme: " . mysqli_error($con);
         }

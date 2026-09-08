@@ -72,14 +72,14 @@ function getOpcoesProdutora($con)
         </div>
     </div>
     <h1 class="text-center p-5 m-0" style="color:#06202B; background-color: #7AE2CF"> Vamos Começar...</h1>
-    <form action="sql_inserir_filmes.php" method="POST">
+    <form action="../Queries/sql_inserir_filmes.php" method="POST">
         <div class="d-flex flex-column w-100 justify-content-center align-items-center">
             <div class="d-flex flex-column p-5 w-25 gap-2" style="background-color:#06202B;">
                 <h1 style="color:#7AE2CF" class="text-center"> Inserir Filme</h1>
                 
                 <input type="text" name="titulo" class="fs-4 ps-2 form-control" placeholder="Título (obrigatório)">
                 <input type="number" name="avaliacao" class="fs-4 ps-2 form-control" placeholder="Avaliação (opcional)">
-                <input type="number" name="duracao" class="fs-4 ps-2 form-control" placeholder="Duração (Minutos) (opcional)">
+                <input type="number" name="duracao" class="fs-4 ps-2 form-control" placeholder="Duração (Minutos) (obrigatório)">
                 
                 <select name="id_genero" class="fs-4">
                     <option value="" selected> Escolha um gênero (obrigatório) </option>
